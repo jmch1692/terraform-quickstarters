@@ -13,4 +13,5 @@ module "vpc" {
     environment_name    = var.environment_name
     project_name        = var.project_name
     cidr_block_map      = var.cidr_block_map
+    aws_region          = var.aws_region
 }

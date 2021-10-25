@@ -1,12 +1,12 @@
-terraform {
-  backend "remote" {
-    hostname = "app.terraform.io"
-    organization = "jmch1692"
-    workspaces {
-        prefix = "quickstart-"
-    }
-  }
-}
+#terraform {
+#  backend "remote" {
+#    hostname = "app.terraform.io"
+#    organization = "jmch1692"
+#    workspaces {
+#        prefix = "quickstart-"
+#    }
+#  }
+#}
 
 module "vpc" {
     source              = "./terraform/vpc"
